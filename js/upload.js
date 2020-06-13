@@ -32,7 +32,7 @@ form.addEventListener('submit', function (e) {
       const name = document.getElementById('name').value;
       //console.log(name.value);
 
-      var storage = firebase.storage().ref('Medical/' + name + '/' + files[i].name);
+      var storage = firebase.storage().ref(name + '/' + files[i].name);
 
       //upload file
       var upload = storage.put(files[i]);
