@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" >
+</head>
+
+<body>
+    <div class="container my-5">
+        <h2>PharmHouse Orders</h2>
+        <header class="text-center text-light my-4">
+            <form class="search">
+                <input class="form-control m-auto" type="text" name="search"
+                    placeholder="Search by date or name" />
+            </form>
+        </header>
+        <ol class="display">
+
+        </ol>
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-firestore.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+	    apiKey: "AIzaSyBBoMuExQttNbbGuBcNzGYX8RZ7WDYu-j4",
+	    authDomain: "pharmhouse-app.firebaseapp.com",
+	    databaseURL: "https://pharmhouse-app.firebaseio.com",
+	    projectId: "pharmhouse-app",
+	    storageBucket: "pharmhouse-app.appspot.com",
+	    messagingSenderId: "65996354737",
+	    appId: "1:65996354737:web:1b7975b99c02cccd7b1e90"
+	  };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    //  var storageRef = firebase.storage().ref();
+    var db = firebase.firestore();
+</script>
+<script src="search.js"></script>
+<script src="fetch.js"></script>
+
+</html>
+

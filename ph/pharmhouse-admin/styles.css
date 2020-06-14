@@ -1,0 +1,30 @@
+.rectangle {
+    width: 90%;
+    height: 380px;
+    border: 2px black dotted;
+    margin-left: 40px;
+}
+
+.rectangle .details {
+    width: 30%;
+    border: 2px red solid;
+    float: left;
+    margin-left: 15px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin:10px;
+}
+
+.images {
+    float: left;
+}
+
+.filtered {
+    display: none !important;
+}
+hr{
+    border: 2px solid red;
+}
