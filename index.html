@@ -49,7 +49,10 @@
               </li>  
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#form">Form</a>
-              </li>                              
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#downloads">Download App</a>
+              </li>                             
             </ul>              
           </div>
         </div>
@@ -119,7 +122,7 @@
                 <i class="lni-pencil"></i>
               </div>
               <h4>Aim</h4>
-              <p>To save Hard earned money of every individual by giving best possible discount in medical expense.</p>
+              <p>To save Hard earned money <br> of every individual by giving best possible <br>  discount in medical expense. <br> <br> &nbsp;</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
@@ -128,7 +131,7 @@
                 <i class="lni-cog"></i>
               </div>
               <h4>Service</h4>
-              <p>We offer home delivery service within 24 hrs, after the order has been confirmed in Hyderabad/ Secunderabad. </p>
+              <p>We offer home delivery service <br> within 24 to 36 hrs, after the order <br> has been confirmed in Hyderbad/ Secunderabad. <br>&nbsp;  </p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
@@ -137,7 +140,7 @@
                 <i class="fa fa-users"></i>
               </div>
               <h4>Refer and Earn</h4>
-              <p>Refer your friends/ relatives to save their money in medical expenses and get 1% Extra off on next bill.<br>
+              <p>Refer your friends/ relatives to save there money in medical expenses and get 1% Extra off on next bill.<br>
               (Referral no- Mobile number of previous customer)</p>
             </div>
           </div>
@@ -155,9 +158,9 @@
     <form>
         <input class="input" type="text" placeholder="Name" id="name" required>
         <input class="input" type="tel" placeholder="Phone No" id="Phone" pattern="[1-9]{1}[0-9]{9}" title="enter 10 digit number" required>
-        <input class="input" type="tel" placeholder="Optional No" id="Optional">
+        <input class="input" type="tel" placeholder="Optional No" id="Optional" pattern="[1-9]{1}[0-9]{9}" title="enter 10 digit number" >
         <input class="input" type="email" placeholder="Email" id="Email" required>
-        <input class="input" type="tel" placeholder="Referral No" id="Referral">
+        <input class="input" type="tel" placeholder="Referral No" id="Referral" pattern="[1-9]{1}[0-9]{9}" title="enter 10 digit number">
         <p><strong><i>Please upload prescription.</i></strong></p>
         <input type="file" id="files" multiple required />
         <input class="input" type="text" placeholder="Address" id='Address' required>
@@ -171,9 +174,32 @@
         <progress style="margin-left: 22px;margin-top: 5px;" value="0" max="100" id="progress"></progress>
     </form>
 </div>
-
+<br>
+<br>
 </section>
 <!-- Services Section End -->
+<section id="downloads" >
+  <div class="section-header">          
+    <h2 class="section-title">Download Our App:</h2>
+  </div>
+
+  <div class="container">
+    <div class="center">
+      <h6 style="text-align: center;"><i><strong> You can scan our qr code to download app.</strong></i></h6>
+      <br>
+      <img src="img/pharmhouse.png" alt="PharmHouse" class=" mx-auto d-block">
+      <br>
+      <br>
+      <h6 style="text-align: center;"><i><strong>(or Download it here)</strong></i></h6>
+      <br>
+      <br>
+      <button type="button" class="btn btn-primary mx-auto d-block" onclick="window.open('https://pharmhouse.in/Downloads/app-release.apk')">Download </button>  
+    </div>
+  </div>
+
+</section>
+<!--Download Section end -->
+
 
     <!-- Footer Section Start -->
     <footer>
@@ -208,10 +234,10 @@
                 <h3 class="block-title">Contact Us</h3>
                 <ul class="contact-footer">
                   <li>
-                    <strong>Address :</strong> <span>8-1-229/B/37, Madhura Hills, Shaikpet</span>
+                    <strong>Address :</strong> <span>8-1-229/B/37, Madhura Hills</span>
                   </li>
                   <li>
-                    <strong>Phone :</strong> <span>+91 7794988002</span>
+                    <strong>Phone :</strong> <span>+91 7670913390</span>
                   </li>
                   <li>
                     <strong>E-mail :</strong> <span><a href="#">pharmhouse99@gmail.com</a></span>
@@ -320,9 +346,9 @@
 .containerform{
     width:200px;
     height: 100%;
-    margin:0 auto 0 auto;
-    margin-top: 100px;
+    margin:0 auto 0 auto; 
 }
+
 
 input{
     padding:10px 20px;
